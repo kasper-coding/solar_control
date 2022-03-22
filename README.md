@@ -9,11 +9,11 @@ Current temperatures and status information will also be displayed on a small we
 Website is running on default port 80 -> http://ip-address 
 
 # Hardware
-1x ESP8266 (I used WEMOS D1 mini clone)
-1x Single Channel Relais
-2x DS18B20 Temperature Sensors
-1x LCD Display HD44780 I2C 
-Some (Dupont-) Cables
+* 1x ESP8266 (I used WEMOS D1 mini clone)
+* 1x Single Channel Relais
+* 2x DS18B20 Temperature Sensors
+* 1x LCD Display HD44780 I2C 
+* Some (Dupont-) Cables
 
 # Housing 
 I designed a 3d Printable Housing for the electronics. (URL will follow)
