@@ -2,7 +2,11 @@
 ESP8266 based Pool Controler Software
 
 DIY Solar Pool Controller to be used with motorized valve and solar mats.
-The controller will measure current pool temperature and 
+The controller will measure current pool and solar temperatures. If final pool temperature is not reached and the solar temperature is higher then pool temperature (plus offset temp) the motor valve (respectively the relay) will be activeted and move the water through the solar mats.
+After specified refresh time (default 5 minutes) the temperatures are checked again.
+offset, refresh time and final temperature values may be changed via MQTT by writing to specific topic.
+Current temperatures and status information will also be displayed on a small website. Watch LCD, serial log or your router for the assigned IP address.
+Website is running on default port 80 -> http://ip-address 
 
 # Hardware
 1x ESP8266 (I used WEMOS D1 mini clone)
