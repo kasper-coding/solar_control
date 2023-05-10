@@ -16,7 +16,7 @@ Website is running on default port 80 -> http://ip-address
 * Some (Dupont-) Cables
 
 # Housing 
-I designed a 3d Printable Housing for the electronics. (URL will follow)
+I designed a 3d Printable Housing for the electronics. (See STL files)
 
 # Installation
 1) Change the the settings to match your needs. 
